@@ -1,6 +1,5 @@
 import math
 from tabulate import tabulate
-import os
 import funcSrc
 
 # Calculator
@@ -45,7 +44,7 @@ else:
     else:
         expr = input(">> Enter function f(x, y): ")
 
-y0 = float(input(">> Enter y0: "))
+y0 = float(input(">> Enter y0: -"))
 h = float(input(">> Enter step size h: "))
 ll, ul = map(float, input(">> Enter Limits (lower upper): ").split())
 
