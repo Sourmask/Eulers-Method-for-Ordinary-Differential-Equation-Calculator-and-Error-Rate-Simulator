@@ -6,7 +6,6 @@ $$
 y_{n+1} = y_n + h \cdot f(x_n, y_n)
 $$
 
----
 
 ## Modified Euler (Heun's Method)
 
@@ -26,7 +25,6 @@ $$
 y_{n+1} = y_n + \frac{h}{2} \cdot (k_1 + k_2)
 $$
 
----
 
 ## Runge-Kutta 4th Order (RK4)
 
